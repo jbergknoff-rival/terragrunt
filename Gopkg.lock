@@ -166,12 +166,9 @@
   version = "v0.5.1"
 
 [[projects]]
-  digest = "1:3d262ac70f6f9c970031d83c4decf4027209d58e4b3fea3a90de4461295df848"
+  digest = "1:c1c0f5025b799b9e45af268e7c02a7026673f281c44c0b7523ca9a4d4b686618"
   name = "github.com/hashicorp/go-getter"
-  packages = [
-    ".",
-    "helper/url",
-  ]
+  packages = ["helper/url"]
   pruneopts = "UT"
   revision = "f9ec369200fd2163b8f452e5e45696d83ae3f4b6"
   version = "v1.3.0"
@@ -298,6 +295,16 @@
   pruneopts = "UT"
   revision = "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
   version = "v1.1.2"
+
+[[projects]]
+  digest = "1:c4a312a15bdd5553908aaf143a34dc6abeff0c96ab66b184ad4b1210c66988ad"
+  name = "github.com/nathmclean/go-getter"
+  packages = [
+    ".",
+    "helper/url",
+  ]
+  pruneopts = "UT"
+  revision = "fdf82e2ef0d94c28e16e361b6f038be317b19f34"
 
 [[projects]]
   digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
@@ -578,8 +585,6 @@
     "github.com/aws/aws-sdk-go/service/s3",
     "github.com/aws/aws-sdk-go/service/sts",
     "github.com/go-errors/errors",
-    "github.com/hashicorp/go-getter",
-    "github.com/hashicorp/go-getter/helper/url",
     "github.com/hashicorp/go-version",
     "github.com/hashicorp/hcl2/gohcl",
     "github.com/hashicorp/hcl2/hcl",
@@ -587,6 +592,8 @@
     "github.com/hashicorp/terraform/lang",
     "github.com/mattn/go-zglob",
     "github.com/mitchellh/mapstructure",
+    "github.com/nathmclean/go-getter",
+    "github.com/nathmclean/go-getter/helper/url",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/require",
     "github.com/urfave/cli",

@@ -12,7 +12,7 @@ import (
 	"github.com/gruntwork-io/terragrunt/options"
 	"github.com/gruntwork-io/terragrunt/shell"
 	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/hashicorp/go-getter"
+	"github.com/nathmclean/go-getter"
 	zglob "github.com/mattn/go-zglob"
 )
 

@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/hashicorp/go-getter"
+	"github.com/nathmclean/go-getter"
 	"net/url"
 	"os"
 )
